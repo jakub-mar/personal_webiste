@@ -1,0 +1,66 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+    font-family: monospace;
+}
+
+.name {
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 0.3rem;
+}
+.name:hover {
+    text-shadow: 0px 0px 2px rgba(255, 255, 255, 1);
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+nav {
+    font-size: 1.2rem;
+    min-height: 8vh;
+    color: white;
+    justify-content: space-around;
+    align-items: center;
+    display: flex;
+    margin-top: 0.9rem;
+}
+
+.nav-links {
+    display: flex;
+    justify-content: space-between;
+    width: 30%;
+}
+.nav-links li {
+    list-style: none;
+}
+
+.nav-links li:hover {
+    color: rgb(253, 120, 142);
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+.main-container {
+    margin: 0 2rem 0 2rem;
+    height: 85vh;
+    background-color: azure;
+}
+
+.aboutme-container {
+    margin: 0 2rem 0 2rem;
+    height: 50vh;
+    background-color: burlywood;
+}
+
+.aboutme-container h3 {
+    font-size: 1.5rem;
+    color: white;
+    display: flex;
+    flex: 1;
+    justify-content: center;
+}
