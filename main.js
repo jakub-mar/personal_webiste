@@ -14,3 +14,7 @@ window.onscroll = function() {
         navBar.classList.add(NAVBAR_TRANSPARENT_CLASS);
     }
 }
+
+function scrollTop(){
+    window.scrollTo({top:0})
+}
