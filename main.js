@@ -2,7 +2,6 @@ const NAVBAR_COLORED_CLASS = 'nav-colored'
 const NAVBAR_TRANSPARENT_CLASS = 'nav-transparent'
 
 const navBar = document.querySelector('.nav')
-console.log(navBar);
 
 window.onscroll = function() {
     if(window.scrollY >= 150){
